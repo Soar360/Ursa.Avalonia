@@ -19,6 +19,7 @@
             Separator="-"
             Watermark="Hello world"
             Tags="{Binding Tags}" />
+		<Button Command="{Binding LoadTagsCommand}" HorizontalAlignment="Left">Load Tags</Button>
         <u:TagInput
             Margin="20"
             AllowDuplicates="False"
